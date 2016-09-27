@@ -1,0 +1,85 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AVOSCloud (3.3.5)
+  - AVOSCloudCrashReporting (3.3.5):
+    - AVOSCloud
+  - AVOSCloudIM (3.3.5):
+    - AVOSCloud
+  - DateTools (1.5.0)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - JSBadgeView (1.4.1)
+  - LeanChatLib (0.3.5):
+    - AVOSCloud
+    - AVOSCloudIM
+    - DateTools (= 1.5.0)
+    - FMDB (= 2.5)
+    - JSBadgeView (= 1.4.1)
+    - SDWebImage
+  - LeanCloudSocial (0.0.8):
+    - AFNetworking (~> 2.0)
+    - AVOSCloud (~> 3.1)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - NAKPlaybackIndicatorView (0.0.3)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - UMengSocialCOM (5.2.1)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+  - LeanChatLib
+  - LeanCloudSocial
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - NAKPlaybackIndicatorView
+  - UMengSocialCOM
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AVOSCloud: 1fe170768bee7e05bc3ea86e38d5bddb105cb957
+  AVOSCloudCrashReporting: 7ad087db785a25d6ef03cb54c2c0b460eb32dabb
+  AVOSCloudIM: dc307c48e951fcd861f4ae6db6d807e7b40639c8
+  DateTools: b93a2c2017747329c6077c7d7e8a75106e23d0d7
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  JSBadgeView: 3861ddee41094284d9468e6d0af5107f703aaac5
+  LeanChatLib: 9a5ed59b2b7224a0f0ea9dbb94c83e2fde0fe5d1
+  LeanCloudSocial: f7787dfc1559dc47263bbfd37a03c870352ad98a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NAKPlaybackIndicatorView: 794dd97576fe074bb1844c19ebcbf7509384a47f
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
+
+PODFILE CHECKSUM: 76b893ba7356eca7f036954fc3974f3c5c30983a
+
+COCOAPODS: 1.1.0.beta.2

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SYHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="212"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" numberOfPages="5" id="Y3N-Wg-ob9">
+                    <rect key="frame" x="139" y="149" width="97" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.17563340208438416" blue="0.07607071683138722" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="7YW-tI-eFF">
+                    <rect key="frame" x="8" y="20" width="359" height="136"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vdB-cm-qg6">
+                            <rect key="frame" x="27" y="0.0" width="304" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <inset key="scrollIndicatorInsets" minX="10" minY="10" maxX="10" maxY="0.0"/>
+                </scrollView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="美物心语，值得选择" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oDg-H7-cAk">
+                    <rect key="frame" x="61" y="183" width="252" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomLabel" destination="oDg-H7-cAk" id="hee-AI-94e"/>
+                <outlet property="contentLabel" destination="vdB-cm-qg6" id="krk-55-eEL"/>
+                <outlet property="pageControl" destination="Y3N-Wg-ob9" id="uup-8M-14h"/>
+                <outlet property="scrollView" destination="7YW-tI-eFF" id="UX6-ep-gxZ"/>
+            </connections>
+            <point key="canvasLocation" x="312" y="336"/>
+        </view>
+    </objects>
+</document>

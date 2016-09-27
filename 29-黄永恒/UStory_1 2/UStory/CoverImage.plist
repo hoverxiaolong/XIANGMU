@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>family_1</string>
+		<string>family_2</string>
+		<string>family_3</string>
+		<string>family_4</string>
+		<string>family_5</string>
+		<string>family_6</string>
+		<string>family_7</string>
+	</array>
+	<array>
+		<string>love_1</string>
+		<string>love_2</string>
+		<string>love_3</string>
+		<string>love_4</string>
+		<string>love_5</string>
+		<string>love_6</string>
+		<string>love_7</string>
+	</array>
+	<array>
+		<string>travel_1</string>
+		<string>travel_2</string>
+		<string>travel_3</string>
+		<string>travel_4</string>
+		<string>travel_5</string>
+		<string>travel_6</string>
+		<string>travel_7</string>
+		<string>travel_8</string>
+	</array>
+	<array>
+		<string>work_1</string>
+		<string>work_2</string>
+		<string>work_3</string>
+		<string>work_4</string>
+		<string>work_5</string>
+	</array>
+	<array>
+		<string>friend_1</string>
+		<string>friend_2</string>
+		<string>friend_3</string>
+		<string>friend_4</string>
+		<string>friend_5</string>
+		<string>friend_6</string>
+	</array>
+	<array>
+		<string>animal_1</string>
+		<string>animal_2</string>
+		<string>animal_3</string>
+		<string>animal_4</string>
+		<string>animal_5</string>
+	</array>
+</array>
+</plist>

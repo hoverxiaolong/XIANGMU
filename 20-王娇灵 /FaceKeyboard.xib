@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FacesKeyboard">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="emr-nC-fY8">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="216"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="L90-oL-uq8">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="WVd-VZ-WLv">
+                    <rect key="frame" x="106" y="165" width="39" height="37"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="WVd-VZ-WLv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="75.5" id="ALz-cc-gaP"/>
+                <constraint firstAttribute="bottom" secondItem="emr-nC-fY8" secondAttribute="bottom" id="JhF-Hs-864"/>
+                <constraint firstAttribute="trailing" secondItem="emr-nC-fY8" secondAttribute="trailing" id="SvW-EX-kJa"/>
+                <constraint firstItem="emr-nC-fY8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XGq-sk-nx0"/>
+                <constraint firstItem="emr-nC-fY8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="huc-Az-C6A"/>
+                <constraint firstItem="WVd-VZ-WLv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pfV-dS-v16"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cllectionView" destination="emr-nC-fY8" id="cyR-3g-T7r"/>
+                <outlet property="pageControl" destination="WVd-VZ-WLv" id="jnt-Vt-cHh"/>
+            </connections>
+            <point key="canvasLocation" x="211" y="16"/>
+        </view>
+    </objects>
+</document>

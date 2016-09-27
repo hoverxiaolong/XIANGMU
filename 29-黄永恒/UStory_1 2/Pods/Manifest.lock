@@ -1,0 +1,32 @@
+PODS:
+  - AVOSCloud (3.3.5)
+  - AVOSCloudCrashReporting (3.3.5):
+    - AVOSCloud
+  - AVOSCloudIM (3.3.5):
+    - AVOSCloud
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - LeanCloudFeedback (0.1.1):
+    - AVOSCloud
+  - TZImagePickerController (1.6.1)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+  - FMDB
+  - LeanCloudFeedback
+  - TZImagePickerController
+
+SPEC CHECKSUMS:
+  AVOSCloud: 1fe170768bee7e05bc3ea86e38d5bddb105cb957
+  AVOSCloudCrashReporting: 7ad087db785a25d6ef03cb54c2c0b460eb32dabb
+  AVOSCloudIM: dc307c48e951fcd861f4ae6db6d807e7b40639c8
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  LeanCloudFeedback: 686305ea196931c7eae49800c384e42d78408482
+  TZImagePickerController: 1f8c9186e6fcfd949cfed563770bf426a049edd6
+
+PODFILE CHECKSUM: 65e9222e2bd310680e143298315f587a05ed1d8e
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="text" rowHeight="64" id="M0X-aL-S5u" customClass="MyXuanCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M0X-aL-S5u" id="RYk-Q7-EEk">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tupian" translatesAutoresizingMaskIntoConstraints="NO" id="r8W-Ju-iJZ">
+                        <rect key="frame" x="8" y="15" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="I9n-o5-eoH"/>
+                            <constraint firstAttribute="width" constant="40" id="IpU-G5-Fod"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_bubble_gray" translatesAutoresizingMaskIntoConstraints="NO" id="2kd-XK-rbh">
+                        <rect key="frame" x="49" y="15" width="66" height="34"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTp-RO-zyE">
+                        <rect key="frame" x="66" y="21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8s-nQ-5tC">
+                        <rect key="frame" x="258" y="17" width="46" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="0DR-cs-TAO"/>
+                            <constraint firstAttribute="height" constant="30" id="c19-cM-mY4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="分享">
+                            <color key="titleColor" red="1" green="0.1756334021" blue="0.076070716829999996" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="shareBtnClick:" destination="M0X-aL-S5u" eventType="touchUpInside" id="dPA-MO-5L1"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dTp-RO-zyE" firstAttribute="leading" secondItem="2kd-XK-rbh" secondAttribute="leading" constant="17" id="4Vd-7j-n8V"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="dTp-RO-zyE" secondAttribute="trailing" constant="80" id="4tn-qs-epw"/>
+                    <constraint firstAttribute="bottom" secondItem="S8s-nQ-5tC" secondAttribute="bottom" constant="16.5" id="7XW-79-UE3"/>
+                    <constraint firstItem="dTp-RO-zyE" firstAttribute="bottom" secondItem="2kd-XK-rbh" secondAttribute="bottom" constant="-7" id="NuL-zf-644"/>
+                    <constraint firstItem="dTp-RO-zyE" firstAttribute="leading" secondItem="r8W-Ju-iJZ" secondAttribute="trailing" constant="18" id="P1X-CO-UDG"/>
+                    <constraint firstItem="dTp-RO-zyE" firstAttribute="top" secondItem="2kd-XK-rbh" secondAttribute="top" constant="6" id="PQc-6h-Heb"/>
+                    <constraint firstAttribute="bottom" secondItem="dTp-RO-zyE" secondAttribute="bottom" constant="21.5" id="bFq-pq-S2J"/>
+                    <constraint firstItem="dTp-RO-zyE" firstAttribute="top" secondItem="RYk-Q7-EEk" secondAttribute="top" constant="21" id="cXc-gH-Wad"/>
+                    <constraint firstAttribute="bottom" secondItem="r8W-Ju-iJZ" secondAttribute="bottom" constant="8.5" id="mlC-dB-wUv"/>
+                    <constraint firstAttribute="trailing" secondItem="S8s-nQ-5tC" secondAttribute="trailing" constant="16" id="q1M-AX-mnF"/>
+                    <constraint firstItem="r8W-Ju-iJZ" firstAttribute="leading" secondItem="RYk-Q7-EEk" secondAttribute="leading" constant="8" id="vEj-m4-Gkm"/>
+                    <constraint firstItem="dTp-RO-zyE" firstAttribute="trailing" secondItem="2kd-XK-rbh" secondAttribute="trailing" constant="-7" id="xHb-Lz-cn9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImage" destination="2kd-XK-rbh" id="Uat-tI-n2w"/>
+                <outlet property="contentLabel" destination="dTp-RO-zyE" id="3Dz-sm-kST"/>
+                <outlet property="icon" destination="r8W-Ju-iJZ" id="aoM-eA-v3X"/>
+                <outlet property="share" destination="S8s-nQ-5tC" id="ZtX-7X-7it"/>
+            </connections>
+            <point key="canvasLocation" x="277" y="135"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chat_bubble_gray" width="47" height="35"/>
+        <image name="tupian" width="271" height="378"/>
+    </resources>
+</document>

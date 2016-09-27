@@ -1,0 +1,14 @@
+//
+//  SideslipViewController.h
+//  UStory
+//
+//  Created by qingyun on 16/8/26.
+//  Copyright © 2016年 黄永恒. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SideslipViewController : UIViewController
+
+
+@end

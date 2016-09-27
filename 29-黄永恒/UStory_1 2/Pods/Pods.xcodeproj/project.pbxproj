@@ -1,0 +1,1335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066455C18137B526A126B336153B29C5 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F739DF7FE76EA895B3D8717CB5DA43 /* TZAssetCell.m */; };
+		0E7B9D9F537232476E0926ED25E4C760 /* LCUserFeedbackReplyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B0A089B64C001BA363DBE6B503F133 /* LCUserFeedbackReplyCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24009A84356FAE083EC892FC6CADD5D0 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BF8E7943ED3A2944150C23FA72D6DE /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1256CF0ECDA2D5EC9506DC52D3818C12 /* Pods-UStoryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D364B9BE00E2565D6319A0F7FCFB3 /* Pods-UStoryTests-dummy.m */; };
+		18446FF6F98BBEFB0E55B567A2213E71 /* TZAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E885E88D22BD5C060DA4F2423771F6F /* TZAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190A099D4860210503A94415BE2E4B6E /* LCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C30EC0D860C2709C4E667051DD21334A /* LCUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D3D0021E87B25C14740727C8D0E5DEC /* LCUserFeedbackReply.h in Headers */ = {isa = PBXBuildFile; fileRef = C8445D9C47FAFAD7621BDDFFC44A213D /* LCUserFeedbackReply.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23A082FA746DF2F1940CD79531D4C43E /* TZImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30168264010393E78858782946E4EB /* TZImagePickerController-dummy.m */; };
+		25F2822F00F8215859E6A5476E1C1753 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C244AD7D64E41D45C4F4B601CC9D203 /* TZAssetModel.m */; };
+		26DD333EE9280AAD5B2E775723CE76B7 /* LCUserFeedbackReply_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FF09807395E5C83014EEB39040045509 /* LCUserFeedbackReply_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE140BBEB495FB8B37D1892C4B12F95 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C7DA1963321D317B4BE5B70CB9C9065 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F029D8879239A7427D43852D103FC /* TZImagePickerController.m */; };
+		2E6FB1B4BDB1B6BA4ADF2538FBB8175A /* LCUserFeedbackThread_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AED88951A939617E6C7CD58BEEECFB /* LCUserFeedbackThread_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309C22B90211980356848EA7D9649B07 /* LeanCloudFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A27D5D0BD3CCF2634E00FD71D0AA8A /* LeanCloudFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = BF68C10538A4D554A6B96D80103B1D51 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380E0B4060FB15EC73A608146D16A439 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = C233932647C55E1BAE989A2AE2E9FAA4 /* UIView+Layout.m */; };
+		38AA6E6B90E7B360EFA8F47EA45C899D /* LCUserFeedbackReply.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2716130CBBA8E26EA04DCA17EA6C6 /* LCUserFeedbackReply.m */; };
+		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F344A56608BC5BBB9A18907C3D4093B /* FMDB-dummy.m */; };
+		40FB46C92726D9487A34933271D26C39 /* LeanCloudFeedback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62D6A29E8F7F3EAA1EAD276A858BAB5 /* LeanCloudFeedback-dummy.m */; };
+		425701ADF7AC6F70EB5205DE0E869C60 /* LCUserFeedbackAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = A66F2D18B4A376768B0184D397F2A999 /* LCUserFeedbackAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42DAFD0D261B758BDD3DFB2BD16A0D01 /* LCUserFeedbackThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C24D98466B1A2602E12991C4C7E1BE7D /* LCUserFeedbackThread.m */; };
+		4463AD48CDEFED9F5F670AE3D116298F /* LCUserFeedbackAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 232201578E4AD40D2B79459D36B2FCA0 /* LCUserFeedbackAgent.m */; };
+		452995F849D2F65EAA2E4D0D2BD25942 /* LCUserFeedbackThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 988D8FB66EF5BF5E33D18FD3DA105F0C /* LCUserFeedbackThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479F0F4EB7544A71BCF29DA9B2DC6394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		48BE8D901F63BFBA3354860D18D0A4FC /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA54B7060CDB6E3BB12207D11413A63 /* NSBundle+TZImagePicker.m */; };
+		516D615BAEDA0C13D07DDCC995F7F42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		52C3A36710226C7E8612DFD5D44E8FDB /* LCUserFeedbackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 862DD85ABC1AA63961D7A7ECFB0D677D /* LCUserFeedbackViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53965D6EDAF9C69D5842D42B9B947257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		53DB434453D8595FD4DE1463C930E2AF /* TZPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81CBC6471488814F3E4B4925D92CC59E /* TZPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F7F3957172AD7177D7D854A53170E49 /* TZImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4C4CAB5EEEC2801E8530C546833179 /* TZImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6463BF800073EB7404186E9157BFF22B /* LCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042EBD2F7D4DDAA51144C6BA16348AA /* LCHttpClient.m */; };
+		6F0D6D1486F291D874D8654B08F9B2EB /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7C2A9FCBAB32F1F38C28A378A5B89B /* TZPhotoPickerController.m */; };
+		70F370AF3CD8034599384E2A02F29D4D /* TZAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD45FD4BDEE750A265B39118D13C6B7 /* TZAssetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745A45789BE22C3B68A5938E8D1A2781 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC842D16723DEA686135277DC5F2AEE /* TZPhotoPreviewCell.m */; };
+		7C3EE750E9815EE6CD03F199ED3990A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		84050CE3F41C29394999F65A73ED9E3D /* TZImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 786F3065E5B7B8EE7EC50C4C10D4E79C /* TZImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C30BEC11A6721756A831391EBE0D01 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A65E27E89F49D8014453FDC4325C65 /* TZImageManager.m */; };
+		9C8D8AE7943217AE0A28B545981BCB24 /* LCUserFeedbackReplyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04B6890A9AFBAE06A3BB790D130BD /* LCUserFeedbackReplyCell.m */; };
+		A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65281F1F7C5E090DDFF84CA575AE8715 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A35EB8EE4E0DE9401BE369C8F31E14DF /* LCUserFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8C32F7DFF50400555D5CD00A038D5 /* LCUserFeedbackViewController.m */; };
+		A4C1FEAB72DCE658F4F384CA97CB2916 /* LCHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0890A0CD9D5B6BE6A31A2C42611E11C7 /* LCHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A561A67BF274ABC8C70A4FFA23D56C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A92E317B5AA6392820B50A3587736F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A939D97FF291C2EFA87ABAC582946B29 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097978B46B63CF627F4716C553CC5678 /* TZVideoPlayerController.m */; };
+		AA718A32B11F9B68D45C75867CD31637 /* Pods-UStoryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DD20417DD8CEA20BD91568E10A416A /* Pods-UStoryUITests-dummy.m */; };
+		B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F43051FD982D10E75A65992120BBB6E8 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA51B49681F5770B42A0F8E3C41B8D5 /* TZPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE5EF2F7783D0199B929F08BA91C94F /* TZPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C340F9D78712BDA8E8E0BC4F0400D280 /* LCUserFeedbackImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C36266F0426DD1830C11B503D6F8A4 /* LCUserFeedbackImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D06E9B7B8AA3B8C965A460F37026D4 /* TZPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 09AC3E553DF94C0B3B8624D3769A1D0A /* TZPhotoPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF461714B0D344BC3AEE264FC2A1E9 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FCDB70091767EA857842DAA609ACC6 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C023BD83671E44FC4278EDD493ACE5 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC417A7E6A5680395AD14394E3707384 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB4681CD2C796C0DA0DC5E090D5F5ED /* TZPhotoPreviewController.m */; };
+		DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C76DB0BE043378A32A35BD61042118 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E02BECE911801157C2A1D41262E2D3FC /* TZVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4099482D3C84B804B23853C55307589 /* TZVideoPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8CCC9C594E2C58590F278E7BFD47BE2 /* Pods-UStory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82517187F9C5432CAB91CF952CA0914C /* Pods-UStory-dummy.m */; };
+		EC9C1F55099915DC6DA96008FF106AE4 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7038E80C08F6D6C2DF1E6E28F0A09E /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED3E5A4E3524ABECEDF641A65DAC9A2 /* NSBundle+TZImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FD1CF3917B82F93A5F48084A39179B /* NSBundle+TZImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87FEBA952DD47B949C777C6B2FFEFFB /* LCUserFeedbackImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16912B073EF0965E87612483676218 /* LCUserFeedbackImageViewController.m */; };
+		F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D23A38EB57DCA7FB995335021EDCBD /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF57A5D20ACA313586FFA0D2B7B136B /* LCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAF5AD59948033CCB1879932407BA /* LCUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		443D13A1575CD37461AD19C06EC174B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F12FB4A63E20F601CFB2E64A65B57C1;
+			remoteInfo = FMDB;
+		};
+		CE23C3743F92FCE83A9400675E872EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDA6EA192E52CDC50FA2BF0F88F1F2B;
+			remoteInfo = LeanCloudFeedback;
+		};
+		E6D08A940D551D755C0200B633B9A321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498F21474E5D47CB5DD48F7E7461A062;
+			remoteInfo = TZImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001817B9399EDF4AC1790CC998D45542 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		051D95341F886130D9166B23523664E3 /* Pods-UStoryTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UStoryTests-frameworks.sh"; sourceTree = "<group>"; };
+		07EFD37AB0E6F63890755E69D845CDFF /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
+		0890A0CD9D5B6BE6A31A2C42611E11C7 /* LCHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCHttpClient.h; path = LeanCloudFeedback/LCHttpClient.h; sourceTree = "<group>"; };
+		097978B46B63CF627F4716C553CC5678 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoPlayerController.m; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.m; sourceTree = "<group>"; };
+		09AC3E553DF94C0B3B8624D3769A1D0A /* TZPhotoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPickerController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.h; sourceTree = "<group>"; };
+		0C244AD7D64E41D45C4F4B601CC9D203 /* TZAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetModel.m; path = TZImagePickerController/TZImagePickerController/TZAssetModel.m; sourceTree = "<group>"; };
+		0C398D734EAB1DBEA908163FB64699A4 /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		0F30168264010393E78858782946E4EB /* TZImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		14D8091D76248F0007F2C0F8C71735F0 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		155D0952548FEC905599CA12391992C5 /* AVIMConversationUpdateBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationUpdateBuilder.h; sourceTree = "<group>"; };
+		16FFF4E4A8EE833DAE5E9B6F013738D8 /* libAVOSCloudIM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudIM.a; sourceTree = "<group>"; };
+		18AED88951A939617E6C7CD58BEEECFB /* LCUserFeedbackThread_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackThread_Internal.h; path = LeanCloudFeedback/LCUserFeedbackThread_Internal.h; sourceTree = "<group>"; };
+		1ECD68B9EE90C53DEE57884BB5AC0888 /* libPods-UStory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UStory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE8CB8521601DDF0AB55AAAAAD5B35 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
+		232201578E4AD40D2B79459D36B2FCA0 /* LCUserFeedbackAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCUserFeedbackAgent.m; path = LeanCloudFeedback/LCUserFeedbackAgent.m; sourceTree = "<group>"; };
+		24009A84356FAE083EC892FC6CADD5D0 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		2469C1F3D80A0B49C18EBBE39CD16EB4 /* LeanCloudFeedback.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeanCloudFeedback.xcconfig; sourceTree = "<group>"; };
+		2AA04B6890A9AFBAE06A3BB790D130BD /* LCUserFeedbackReplyCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCUserFeedbackReplyCell.m; path = LeanCloudFeedback/LCUserFeedbackReplyCell.m; sourceTree = "<group>"; };
+		2BD1DAE125EC1DB95DB4B49A2C254AEB /* AVIMCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMCommon.h; sourceTree = "<group>"; };
+		2DB4681CD2C796C0DA0DC5E090D5F5ED /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		30315DDF68CE3BF920AD839EEDEB04C9 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TZImagePickerController.bundle; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle; sourceTree = "<group>"; };
+		30FCDB70091767EA857842DAA609ACC6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3360D7EB8FD74835714959C41C6E184C /* LeanCloudFeedback.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = LeanCloudFeedback.strings; path = LeanCloudFeedback/resources/LeanCloudFeedback.strings; sourceTree = "<group>"; };
+		33BEAF471644563797F9E3CEC7C90088 /* Pods-UStoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UStoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		34DD20417DD8CEA20BD91568E10A416A /* Pods-UStoryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UStoryUITests-dummy.m"; sourceTree = "<group>"; };
+		3678BE7EA14F163196CEFC34375A0F49 /* Pods-UStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UStory.debug.xcconfig"; sourceTree = "<group>"; };
+		39CCBEA8650CFD054F60271F52928012 /* AVOSCloudCrashReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudCrashReporting.h; sourceTree = "<group>"; };
+		3ADC4B47FCB82326683BBAC1DDBF201B /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
+		3BAD298B570BD8FB11EF4478E4ACFF6F /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
+		3C16912B073EF0965E87612483676218 /* LCUserFeedbackImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCUserFeedbackImageViewController.m; path = LeanCloudFeedback/LCUserFeedbackImageViewController.m; sourceTree = "<group>"; };
+		3D5250E2D3E9D1A6A42805F031575275 /* libAVOSCloudCrashReporting.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudCrashReporting.a; sourceTree = "<group>"; };
+		3D7CF6DAB51B71D4FCC4BD0D88DED94E /* AVIMTypedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTypedMessage.h; sourceTree = "<group>"; };
+		3DA54B7060CDB6E3BB12207D11413A63 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		3DE94DBB3BDFD2CBFB7D90EF144CE7DA /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
+		401627F1CED909BEF7C6DC3EAC0C17FD /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
+		403278B67644D2264E8E8FB69F619404 /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
+		40C76DB0BE043378A32A35BD61042118 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		4121BBCA276C8AA521568DBB76A7151F /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
+		45F739DF7FE76EA895B3D8717CB5DA43 /* TZAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetCell.m; path = TZImagePickerController/TZImagePickerController/TZAssetCell.m; sourceTree = "<group>"; };
+		489927A87634478E07D48DDF282F2C9B /* AVIMClientOpenOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClientOpenOption.h; sourceTree = "<group>"; };
+		48C023BD83671E44FC4278EDD493ACE5 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		4921E598C614C254F28682B22C1DE5F4 /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
+		49A27D5D0BD3CCF2634E00FD71D0AA8A /* LeanCloudFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LeanCloudFeedback.h; path = LeanCloudFeedback/LeanCloudFeedback.h; sourceTree = "<group>"; };
+		4B7C3368637679CDDDCE690F029809A8 /* TZImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.xcconfig; sourceTree = "<group>"; };
+		4BF944BF37851DB0B3C732EFAF0A89EF /* AVIMFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMFileMessage.h; sourceTree = "<group>"; };
+		4CDA34E300BA71CEAFBDC9273072800D /* Pods-UStoryTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UStoryTests-resources.sh"; sourceTree = "<group>"; };
+		4D1B49E2E567E3DEE5FE76BC25431DE9 /* AVIMSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMSignature.h; sourceTree = "<group>"; };
+		4FFCC3773FFE9AD44D12EAE2A4DC33B9 /* feedback_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedback_back@2x.png"; path = "LeanCloudFeedback/resources/feedback_back@2x.png"; sourceTree = "<group>"; };
+		516EE90225E32CA8B5A87996FFB4D9DE /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
+		5B742E7EEC8BCFD9651ABE5FEA378392 /* Pods-UStory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UStory-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CF6C29E3D8902B2AEBACC9AF6F4DFFC /* Pods-UStoryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UStoryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6454EFF72A72F5F08AFDA30820A1B144 /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
+		65281F1F7C5E090DDFF84CA575AE8715 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6D862203993DE0C43A71ED2BECBF7838 /* feedback_add_image@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedback_add_image@2x.png"; path = "LeanCloudFeedback/resources/feedback_add_image@2x.png"; sourceTree = "<group>"; };
+		72A16E04E7B541E10B31D0B8A08BAF9E /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A450BA41042C2FCADD888BE22500E2 /* Pods-UStoryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UStoryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		72CCFB5BB7B6356542D0FBF83076EFE6 /* Pods-UStory-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UStory-resources.sh"; sourceTree = "<group>"; };
+		73FD1CF3917B82F93A5F48084A39179B /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		74DD66E96E87932F53913700421DE03D /* AVIMConversationQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationQuery.h; sourceTree = "<group>"; };
+		786F3065E5B7B8EE7EC50C4C10D4E79C /* TZImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageManager.h; path = TZImagePickerController/TZImagePickerController/TZImageManager.h; sourceTree = "<group>"; };
+		79A65E27E89F49D8014453FDC4325C65 /* TZImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageManager.m; path = TZImagePickerController/TZImagePickerController/TZImageManager.m; sourceTree = "<group>"; };
+		7CDCEF77A8194541C4C360A309F1CC08 /* AVIMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClient.h; sourceTree = "<group>"; };
+		7D7D364B9BE00E2565D6319A0F7FCFB3 /* Pods-UStoryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UStoryTests-dummy.m"; sourceTree = "<group>"; };
+		7E6DF11465C3E85D309993F76E6C839F /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
+		7FAE460646D528996C8E1DB4426CF345 /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
+		8042EBD2F7D4DDAA51144C6BA16348AA /* LCHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCHttpClient.m; path = LeanCloudFeedback/LCHttpClient.m; sourceTree = "<group>"; };
+		81CBC6471488814F3E4B4925D92CC59E /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		82517187F9C5432CAB91CF952CA0914C /* Pods-UStory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UStory-dummy.m"; sourceTree = "<group>"; };
+		862DD85ABC1AA63961D7A7ECFB0D677D /* LCUserFeedbackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackViewController.h; path = LeanCloudFeedback/LCUserFeedbackViewController.h; sourceTree = "<group>"; };
+		86B8DFEF655A8E774DD960A899460597 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
+		8905DE8988A6F74F00522C35CC93E78F /* feedback_bg_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedback_bg_1@2x.png"; path = "LeanCloudFeedback/resources/feedback_bg_1@2x.png"; sourceTree = "<group>"; };
+		89C355F52C3D0A9849E507C7E7F95A65 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
+		8B0D30FE5DA0E301498643DE1D266ED1 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		8B4C4CAB5EEEC2801E8530C546833179 /* TZImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImagePickerController.h; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.h; sourceTree = "<group>"; };
+		8D7038E80C08F6D6C2DF1E6E28F0A09E /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.h"; sourceTree = "<group>"; };
+		8E885E88D22BD5C060DA4F2423771F6F /* TZAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetCell.h; path = TZImagePickerController/TZImagePickerController/TZAssetCell.h; sourceTree = "<group>"; };
+		8E9F029D8879239A7427D43852D103FC /* TZImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImagePickerController.m; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.m; sourceTree = "<group>"; };
+		9084977D57E433EB718DCB13F2376830 /* Pods-UStoryUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UStoryUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9147E536CBD39A96BE6A20C60D57EBE3 /* libPods-UStoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UStoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EC83AD4998C570E100AEB787470037 /* AVOSCloudIM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudIM.h; sourceTree = "<group>"; };
+		934708754C44D47B88A739CFE19EF88C /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94467D8C213130B9D0BEB6B2623069B5 /* Pods-UStory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UStory-frameworks.sh"; sourceTree = "<group>"; };
+		94B74E63C1D900C12B2567E4686E3BA4 /* Pods-UStoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UStoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95C70106842D898D2E232F9E565CB6DE /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
+		95D714A482BEE9618C175EDCA0FBB96D /* AVIMTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTextMessage.h; sourceTree = "<group>"; };
+		96B0A089B64C001BA363DBE6B503F133 /* LCUserFeedbackReplyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackReplyCell.h; path = LeanCloudFeedback/LCUserFeedbackReplyCell.h; sourceTree = "<group>"; };
+		988D8FB66EF5BF5E33D18FD3DA105F0C /* LCUserFeedbackThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackThread.h; path = LeanCloudFeedback/LCUserFeedbackThread.h; sourceTree = "<group>"; };
+		99BE70F33DB610F2E1A5C70991C39737 /* Pods-UStoryUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UStoryUITests-resources.sh"; sourceTree = "<group>"; };
+		99C644ADD334CFE20DE1C39BB62856CC /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		9B5E26CBC9D621E98EE791F477C8923D /* TZImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		9CE5EF2F7783D0199B929F08BA91C94F /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewCell.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		9F1B2E777ACCCF5F7AEDDB90D9BB7559 /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
+		9F344A56608BC5BBB9A18907C3D4093B /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		9FD45FD4BDEE750A265B39118D13C6B7 /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
+		A2C2BB8E3F9055F895E5565D063D6456 /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
+		A30A0F1BC31EB3CB328A3B00C78B4204 /* AVIMImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMImageMessage.h; sourceTree = "<group>"; };
+		A3DABD05CD1599E034D101C4819100B9 /* Pods-UStoryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UStoryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A46BE4915A3B534ECF589D19C74A7914 /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
+		A66F2D18B4A376768B0184D397F2A999 /* LCUserFeedbackAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackAgent.h; path = LeanCloudFeedback/LCUserFeedbackAgent.h; sourceTree = "<group>"; };
+		A6D8C32F7DFF50400555D5CD00A038D5 /* LCUserFeedbackViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCUserFeedbackViewController.m; path = LeanCloudFeedback/LCUserFeedbackViewController.m; sourceTree = "<group>"; };
+		A71341DFF199F07B2919AF778B2CA118 /* feedback_bg_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedback_bg_2@2x.png"; path = "LeanCloudFeedback/resources/feedback_bg_2@2x.png"; sourceTree = "<group>"; };
+		A7383B9ED3F6931E448B0B916A1DB073 /* libTZImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTZImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA34602F8AF4B44333B9CB9971AC31A0 /* Pods-UStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UStory.release.xcconfig"; sourceTree = "<group>"; };
+		ABA2716130CBBA8E26EA04DCA17EA6C6 /* LCUserFeedbackReply.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCUserFeedbackReply.m; path = LeanCloudFeedback/LCUserFeedbackReply.m; sourceTree = "<group>"; };
+		ACC842D16723DEA686135277DC5F2AEE /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewCell.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		ACFDA51CA12A49402CA9C87680CC018E /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		AD0D84918C199A51EB92B0756C8A74F0 /* AVIMUserOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMUserOptions.h; sourceTree = "<group>"; };
+		AE5C1232F5CC5AF8D443BAD43B56889A /* libPods-UStoryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UStoryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5669715F415B099097226A3E0B3D836 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
+		B667D5F6100BC1106B149C078130D9C6 /* Pods-UStory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UStory-acknowledgements.plist"; sourceTree = "<group>"; };
+		B74A4854521D7544157F525CFA6B21C2 /* AVIMAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAvailability.h; sourceTree = "<group>"; };
+		B8D4665442D495AE7D5E80DD8BE44ED0 /* LeanCloudFeedback-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeanCloudFeedback-prefix.pch"; sourceTree = "<group>"; };
+		BF68C10538A4D554A6B96D80103B1D51 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		BF6B5003F8EF943AFB21760A578F7746 /* libLeanCloudFeedback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLeanCloudFeedback.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C36266F0426DD1830C11B503D6F8A4 /* LCUserFeedbackImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackImageViewController.h; path = LeanCloudFeedback/LCUserFeedbackImageViewController.h; sourceTree = "<group>"; };
+		C233932647C55E1BAE989A2AE2E9FAA4 /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.m"; sourceTree = "<group>"; };
+		C24D98466B1A2602E12991C4C7E1BE7D /* LCUserFeedbackThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCUserFeedbackThread.m; path = LeanCloudFeedback/LCUserFeedbackThread.m; sourceTree = "<group>"; };
+		C30EC0D860C2709C4E667051DD21334A /* LCUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUtils.h; path = LeanCloudFeedback/LCUtils.h; sourceTree = "<group>"; };
+		C3120F3A83658626D7CE6F573FA27026 /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
+		C4EBC97A536FBF05FEF5DDACBF420A60 /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		C5BF8E7943ED3A2944150C23FA72D6DE /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		C62D6A29E8F7F3EAA1EAD276A858BAB5 /* LeanCloudFeedback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeanCloudFeedback-dummy.m"; sourceTree = "<group>"; };
+		C76D82C369BF8952F90A6F793DD26569 /* AVIMKeyedConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMKeyedConversation.h; sourceTree = "<group>"; };
+		C8445D9C47FAFAD7621BDDFFC44A213D /* LCUserFeedbackReply.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackReply.h; path = LeanCloudFeedback/LCUserFeedbackReply.h; sourceTree = "<group>"; };
+		C8A4EAEE00E3BF6845225616212352AB /* Pods-UStoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UStoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB561D756EE0F77E21610DCD68D4E5E0 /* feedback_btn_new@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedback_btn_new@2x.png"; path = "LeanCloudFeedback/resources/feedback_btn_new@2x.png"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF8EFF42F44FD32C5E259F3ADE3F1969 /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		D0CF461714B0D344BC3AEE264FC2A1E9 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		D137EEE0BAF81F5AE12158BBE15451D3 /* AVIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMMessage.h; sourceTree = "<group>"; };
+		D20233D439111EE348F8E9465087FBD7 /* AVIMLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMLocationMessage.h; sourceTree = "<group>"; };
+		D39ECF82F9DA0BC678134FEFDE6F286B /* Pods-UStoryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UStoryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D409D6573C160DA86F266EE2527BE2A0 /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
+		D55DAF473160D8CC00CAB219AEB03ED7 /* AVIMAudioMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAudioMessage.h; sourceTree = "<group>"; };
+		D69ED6F31C0EF6314085E892A07EBF82 /* Pods-UStoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UStoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8AF75770C9987526612AEA4AA24CB14 /* AVIMVideoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMVideoMessage.h; sourceTree = "<group>"; };
+		DE7C2A9FCBAB32F1F38C28A378A5B89B /* TZPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPickerController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.m; sourceTree = "<group>"; };
+		E2B967A34833A2FECE25D640C0C85DB1 /* feedback_warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedback_warning@2x.png"; path = "LeanCloudFeedback/resources/feedback_warning@2x.png"; sourceTree = "<group>"; };
+		E499EA9C5845BE701B3F0AA47BD8CD5B /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
+		E5BD85DD7E78C7C7CC2555DBD358B400 /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
+		E6D23A38EB57DCA7FB995335021EDCBD /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		EEE140BBEB495FB8B37D1892C4B12F95 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F25B1409D5728F94A30A41D5C47B597C /* feedback_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedback_btn@2x.png"; path = "LeanCloudFeedback/resources/feedback_btn@2x.png"; sourceTree = "<group>"; };
+		F4099482D3C84B804B23853C55307589 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
+		F43051FD982D10E75A65992120BBB6E8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FAEDAF5AD59948033CCB1879932407BA /* LCUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCUtils.m; path = LeanCloudFeedback/LCUtils.m; sourceTree = "<group>"; };
+		FDB9745BC206446BD1A12D1C9593756B /* AVIMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversation.h; sourceTree = "<group>"; };
+		FF09807395E5C83014EEB39040045509 /* LCUserFeedbackReply_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCUserFeedbackReply_Internal.h; path = LeanCloudFeedback/LCUserFeedbackReply_Internal.h; sourceTree = "<group>"; };
+		FFCD3DA94531252B34838DDC9766E415 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CE96770507EE8EEEBB54D875F18C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3EE750E9815EE6CD03F199ED3990A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E65780167B6B8556D7596E1AAE6966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53965D6EDAF9C69D5842D42B9B947257 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557B8056D9B24E9D889A25BF4296F636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E317B5AA6392820B50A3587736F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75741768C9D04FA62E4F06D4FCE1BDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479F0F4EB7544A71BCF29DA9B2DC6394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF63084FFE4472EFC6131BD113B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A561A67BF274ABC8C70A4FFA23D56C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DA275A5FA19E4586B6EA5D0C581C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516D615BAEDA0C13D07DDCC995F7F42C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16608CA287C3C6107D87BD901BA0EE7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16FFF4E4A8EE833DAE5E9B6F013738D8 /* libAVOSCloudIM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EF48A7B8D1915C4DC66348F31B90C9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14D8091D76248F0007F2C0F8C71735F0 /* FMDB.xcconfig */,
+				9F344A56608BC5BBB9A18907C3D4093B /* FMDB-dummy.m */,
+				8B0D30FE5DA0E301498643DE1D266ED1 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		1FCB51CEECABE4E0021AD8ADDC05A4E2 /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDA51CA12A49402CA9C87680CC018E /* AVACL.h */,
+				7E6DF11465C3E85D309993F76E6C839F /* AVAnalytics.h */,
+				99C644ADD334CFE20DE1C39BB62856CC /* AVAnonymousUtils.h */,
+				4921E598C614C254F28682B22C1DE5F4 /* AVAvailability.h */,
+				001817B9399EDF4AC1790CC998D45542 /* AVCloud.h */,
+				E499EA9C5845BE701B3F0AA47BD8CD5B /* AVCloudQueryResult.h */,
+				C4EBC97A536FBF05FEF5DDACBF420A60 /* AVConstants.h */,
+				86B8DFEF655A8E774DD960A899460597 /* AVFile.h */,
+				E5BD85DD7E78C7C7CC2555DBD358B400 /* AVFileQuery.h */,
+				C3120F3A83658626D7CE6F573FA27026 /* AVGeoPoint.h */,
+				A46BE4915A3B534ECF589D19C74A7914 /* AVGroup.h */,
+				3BAD298B570BD8FB11EF4478E4ACFF6F /* AVHistoryMessage.h */,
+				934708754C44D47B88A739CFE19EF88C /* AVHistoryMessageQuery.h */,
+				FFCD3DA94531252B34838DDC9766E415 /* AVInstallation.h */,
+				4121BBCA276C8AA521568DBB76A7151F /* AVLogger.h */,
+				A2C2BB8E3F9055F895E5565D063D6456 /* AVMessage.h */,
+				3ADC4B47FCB82326683BBAC1DDBF201B /* AVObject.h */,
+				403278B67644D2264E8E8FB69F619404 /* AVObject+Subclass.h */,
+				516EE90225E32CA8B5A87996FFB4D9DE /* AVOSCloud.h */,
+				D409D6573C160DA86F266EE2527BE2A0 /* AVPush.h */,
+				89C355F52C3D0A9849E507C7E7F95A65 /* AVQuery.h */,
+				07EFD37AB0E6F63890755E69D845CDFF /* AVRelation.h */,
+				95C70106842D898D2E232F9E565CB6DE /* AVRole.h */,
+				6454EFF72A72F5F08AFDA30820A1B144 /* AVSaveOption.h */,
+				7FAE460646D528996C8E1DB4426CF345 /* AVSearchQuery.h */,
+				CF8EFF42F44FD32C5E259F3ADE3F1969 /* AVSearchSortBuilder.h */,
+				401627F1CED909BEF7C6DC3EAC0C17FD /* AVSession.h */,
+				22AE8CB8521601DDF0AB55AAAAAD5B35 /* AVSignature.h */,
+				9F1B2E777ACCCF5F7AEDDB90D9BB7559 /* AVStatus.h */,
+				3DE94DBB3BDFD2CBFB7D90EF144CE7DA /* AVSubclassing.h */,
+				B5669715F415B099097226A3E0B3D836 /* AVUser.h */,
+				E7DE0C72BCD88A80A03AC9637EB8425D /* Frameworks */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		2110500473FBADE23A2BE45631E803EB /* LeanCloudFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				0890A0CD9D5B6BE6A31A2C42611E11C7 /* LCHttpClient.h */,
+				8042EBD2F7D4DDAA51144C6BA16348AA /* LCHttpClient.m */,
+				A66F2D18B4A376768B0184D397F2A999 /* LCUserFeedbackAgent.h */,
+				232201578E4AD40D2B79459D36B2FCA0 /* LCUserFeedbackAgent.m */,
+				C1C36266F0426DD1830C11B503D6F8A4 /* LCUserFeedbackImageViewController.h */,
+				3C16912B073EF0965E87612483676218 /* LCUserFeedbackImageViewController.m */,
+				C8445D9C47FAFAD7621BDDFFC44A213D /* LCUserFeedbackReply.h */,
+				ABA2716130CBBA8E26EA04DCA17EA6C6 /* LCUserFeedbackReply.m */,
+				FF09807395E5C83014EEB39040045509 /* LCUserFeedbackReply_Internal.h */,
+				96B0A089B64C001BA363DBE6B503F133 /* LCUserFeedbackReplyCell.h */,
+				2AA04B6890A9AFBAE06A3BB790D130BD /* LCUserFeedbackReplyCell.m */,
+				988D8FB66EF5BF5E33D18FD3DA105F0C /* LCUserFeedbackThread.h */,
+				C24D98466B1A2602E12991C4C7E1BE7D /* LCUserFeedbackThread.m */,
+				18AED88951A939617E6C7CD58BEEECFB /* LCUserFeedbackThread_Internal.h */,
+				862DD85ABC1AA63961D7A7ECFB0D677D /* LCUserFeedbackViewController.h */,
+				A6D8C32F7DFF50400555D5CD00A038D5 /* LCUserFeedbackViewController.m */,
+				C30EC0D860C2709C4E667051DD21334A /* LCUtils.h */,
+				FAEDAF5AD59948033CCB1879932407BA /* LCUtils.m */,
+				49A27D5D0BD3CCF2634E00FD71D0AA8A /* LeanCloudFeedback.h */,
+				C832F1F9931999BB438EE9F7A735EBE0 /* Resources */,
+				2EBA79250D3908EA009C1B359C363965 /* Support Files */,
+			);
+			path = LeanCloudFeedback;
+			sourceTree = "<group>";
+		};
+		2EBA79250D3908EA009C1B359C363965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2469C1F3D80A0B49C18EBBE39CD16EB4 /* LeanCloudFeedback.xcconfig */,
+				C62D6A29E8F7F3EAA1EAD276A858BAB5 /* LeanCloudFeedback-dummy.m */,
+				B8D4665442D495AE7D5E80DD8BE44ED0 /* LeanCloudFeedback-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LeanCloudFeedback";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3FA3FA39B2555346514CF20DE5D25242 /* AVOSCloudCrashReporting */ = {
+			isa = PBXGroup;
+			children = (
+				39CCBEA8650CFD054F60271F52928012 /* AVOSCloudCrashReporting.h */,
+				67A52852418DB36F11BE9BB1B44CA845 /* Frameworks */,
+			);
+			path = AVOSCloudCrashReporting;
+			sourceTree = "<group>";
+		};
+		40B0AE5261D143878ED703C873AF70E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72A16E04E7B541E10B31D0B8A08BAF9E /* libFMDB.a */,
+				BF6B5003F8EF943AFB21760A578F7746 /* libLeanCloudFeedback.a */,
+				1ECD68B9EE90C53DEE57884BB5AC0888 /* libPods-UStory.a */,
+				9147E536CBD39A96BE6A20C60D57EBE3 /* libPods-UStoryTests.a */,
+				AE5C1232F5CC5AF8D443BAD43B56889A /* libPods-UStoryUITests.a */,
+				A7383B9ED3F6931E448B0B916A1DB073 /* libTZImagePickerController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F763CD19259918C96D1B8D72DDD2E5F /* Pods-UStoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3DABD05CD1599E034D101C4819100B9 /* Pods-UStoryTests-acknowledgements.markdown */,
+				72A450BA41042C2FCADD888BE22500E2 /* Pods-UStoryTests-acknowledgements.plist */,
+				7D7D364B9BE00E2565D6319A0F7FCFB3 /* Pods-UStoryTests-dummy.m */,
+				051D95341F886130D9166B23523664E3 /* Pods-UStoryTests-frameworks.sh */,
+				4CDA34E300BA71CEAFBDC9273072800D /* Pods-UStoryTests-resources.sh */,
+				94B74E63C1D900C12B2567E4686E3BA4 /* Pods-UStoryTests.debug.xcconfig */,
+				33BEAF471644563797F9E3CEC7C90088 /* Pods-UStoryTests.release.xcconfig */,
+			);
+			name = "Pods-UStoryTests";
+			path = "Target Support Files/Pods-UStoryTests";
+			sourceTree = "<group>";
+		};
+		67A52852418DB36F11BE9BB1B44CA845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5250E2D3E9D1A6A42805F031575275 /* libAVOSCloudCrashReporting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730920FBB8E50EBBA7680CC86D934B40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DBF67348016DBBF44851C4EA38151 /* Pods-UStory */,
+				4F763CD19259918C96D1B8D72DDD2E5F /* Pods-UStoryTests */,
+				B3D5819C58A9BC7501E1078A8F57398E /* Pods-UStoryUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		775C4AF038DEBBB0FC32C599202C8A3D /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED91E1ED0854FAAC8CA881E75ABAD9 /* standard */,
+				1EF48A7B8D1915C4DC66348F31B90C9A /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DCF7F9116A02A725A175F1724D0A80F8 /* Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				40B0AE5261D143878ED703C873AF70E4 /* Products */,
+				730920FBB8E50EBBA7680CC86D934B40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC67E179AE9A92220C481A1DB057189 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30315DDF68CE3BF920AD839EEDEB04C9 /* TZImagePickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AFF8E87B0029779FF8515C4261A0FF17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B7C3368637679CDDDCE690F029809A8 /* TZImagePickerController.xcconfig */,
+				0F30168264010393E78858782946E4EB /* TZImagePickerController-dummy.m */,
+				9B5E26CBC9D621E98EE791F477C8923D /* TZImagePickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TZImagePickerController";
+			sourceTree = "<group>";
+		};
+		B3D5819C58A9BC7501E1078A8F57398E /* Pods-UStoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6C29E3D8902B2AEBACC9AF6F4DFFC /* Pods-UStoryUITests-acknowledgements.markdown */,
+				D39ECF82F9DA0BC678134FEFDE6F286B /* Pods-UStoryUITests-acknowledgements.plist */,
+				34DD20417DD8CEA20BD91568E10A416A /* Pods-UStoryUITests-dummy.m */,
+				9084977D57E433EB718DCB13F2376830 /* Pods-UStoryUITests-frameworks.sh */,
+				99BE70F33DB610F2E1A5C70991C39737 /* Pods-UStoryUITests-resources.sh */,
+				C8A4EAEE00E3BF6845225616212352AB /* Pods-UStoryUITests.debug.xcconfig */,
+				D69ED6F31C0EF6314085E892A07EBF82 /* Pods-UStoryUITests.release.xcconfig */,
+			);
+			name = "Pods-UStoryUITests";
+			path = "Target Support Files/Pods-UStoryUITests";
+			sourceTree = "<group>";
+		};
+		BB0C245D953407BE8C2218EB8909A0C0 /* AVOSCloudIM */ = {
+			isa = PBXGroup;
+			children = (
+				D55DAF473160D8CC00CAB219AEB03ED7 /* AVIMAudioMessage.h */,
+				B74A4854521D7544157F525CFA6B21C2 /* AVIMAvailability.h */,
+				7CDCEF77A8194541C4C360A309F1CC08 /* AVIMClient.h */,
+				489927A87634478E07D48DDF282F2C9B /* AVIMClientOpenOption.h */,
+				2BD1DAE125EC1DB95DB4B49A2C254AEB /* AVIMCommon.h */,
+				FDB9745BC206446BD1A12D1C9593756B /* AVIMConversation.h */,
+				74DD66E96E87932F53913700421DE03D /* AVIMConversationQuery.h */,
+				155D0952548FEC905599CA12391992C5 /* AVIMConversationUpdateBuilder.h */,
+				4BF944BF37851DB0B3C732EFAF0A89EF /* AVIMFileMessage.h */,
+				A30A0F1BC31EB3CB328A3B00C78B4204 /* AVIMImageMessage.h */,
+				C76D82C369BF8952F90A6F793DD26569 /* AVIMKeyedConversation.h */,
+				D20233D439111EE348F8E9465087FBD7 /* AVIMLocationMessage.h */,
+				D137EEE0BAF81F5AE12158BBE15451D3 /* AVIMMessage.h */,
+				4D1B49E2E567E3DEE5FE76BC25431DE9 /* AVIMSignature.h */,
+				95D714A482BEE9618C175EDCA0FBB96D /* AVIMTextMessage.h */,
+				3D7CF6DAB51B71D4FCC4BD0D88DED94E /* AVIMTypedMessage.h */,
+				AD0D84918C199A51EB92B0756C8A74F0 /* AVIMUserOptions.h */,
+				D8AF75770C9987526612AEA4AA24CB14 /* AVIMVideoMessage.h */,
+				92EC83AD4998C570E100AEB787470037 /* AVOSCloudIM.h */,
+				16608CA287C3C6107D87BD901BA0EE7B /* Frameworks */,
+			);
+			path = AVOSCloudIM;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12F07A4E4355AB9CA9E5C311A71792A /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				73FD1CF3917B82F93A5F48084A39179B /* NSBundle+TZImagePicker.h */,
+				3DA54B7060CDB6E3BB12207D11413A63 /* NSBundle+TZImagePicker.m */,
+				8E885E88D22BD5C060DA4F2423771F6F /* TZAssetCell.h */,
+				45F739DF7FE76EA895B3D8717CB5DA43 /* TZAssetCell.m */,
+				9FD45FD4BDEE750A265B39118D13C6B7 /* TZAssetModel.h */,
+				0C244AD7D64E41D45C4F4B601CC9D203 /* TZAssetModel.m */,
+				786F3065E5B7B8EE7EC50C4C10D4E79C /* TZImageManager.h */,
+				79A65E27E89F49D8014453FDC4325C65 /* TZImageManager.m */,
+				8B4C4CAB5EEEC2801E8530C546833179 /* TZImagePickerController.h */,
+				8E9F029D8879239A7427D43852D103FC /* TZImagePickerController.m */,
+				09AC3E553DF94C0B3B8624D3769A1D0A /* TZPhotoPickerController.h */,
+				DE7C2A9FCBAB32F1F38C28A378A5B89B /* TZPhotoPickerController.m */,
+				9CE5EF2F7783D0199B929F08BA91C94F /* TZPhotoPreviewCell.h */,
+				ACC842D16723DEA686135277DC5F2AEE /* TZPhotoPreviewCell.m */,
+				81CBC6471488814F3E4B4925D92CC59E /* TZPhotoPreviewController.h */,
+				2DB4681CD2C796C0DA0DC5E090D5F5ED /* TZPhotoPreviewController.m */,
+				F4099482D3C84B804B23853C55307589 /* TZVideoPlayerController.h */,
+				097978B46B63CF627F4716C553CC5678 /* TZVideoPlayerController.m */,
+				8D7038E80C08F6D6C2DF1E6E28F0A09E /* UIView+Layout.h */,
+				C233932647C55E1BAE989A2AE2E9FAA4 /* UIView+Layout.m */,
+				9FC67E179AE9A92220C481A1DB057189 /* Resources */,
+				AFF8E87B0029779FF8515C4261A0FF17 /* Support Files */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		C832F1F9931999BB438EE9F7A735EBE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D862203993DE0C43A71ED2BECBF7838 /* feedback_add_image@2x.png */,
+				4FFCC3773FFE9AD44D12EAE2A4DC33B9 /* feedback_back@2x.png */,
+				8905DE8988A6F74F00522C35CC93E78F /* feedback_bg_1@2x.png */,
+				A71341DFF199F07B2919AF778B2CA118 /* feedback_bg_2@2x.png */,
+				F25B1409D5728F94A30A41D5C47B597C /* feedback_btn@2x.png */,
+				CB561D756EE0F77E21610DCD68D4E5E0 /* feedback_btn_new@2x.png */,
+				E2B967A34833A2FECE25D640C0C85DB1 /* feedback_warning@2x.png */,
+				3360D7EB8FD74835714959C41C6E184C /* LeanCloudFeedback.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE6DBF67348016DBBF44851C4EA38151 /* Pods-UStory */ = {
+			isa = PBXGroup;
+			children = (
+				5B742E7EEC8BCFD9651ABE5FEA378392 /* Pods-UStory-acknowledgements.markdown */,
+				B667D5F6100BC1106B149C078130D9C6 /* Pods-UStory-acknowledgements.plist */,
+				82517187F9C5432CAB91CF952CA0914C /* Pods-UStory-dummy.m */,
+				94467D8C213130B9D0BEB6B2623069B5 /* Pods-UStory-frameworks.sh */,
+				72CCFB5BB7B6356542D0FBF83076EFE6 /* Pods-UStory-resources.sh */,
+				3678BE7EA14F163196CEFC34375A0F49 /* Pods-UStory.debug.xcconfig */,
+				AA34602F8AF4B44333B9CB9971AC31A0 /* Pods-UStory.release.xcconfig */,
+			);
+			name = "Pods-UStory";
+			path = "Target Support Files/Pods-UStory";
+			sourceTree = "<group>";
+		};
+		D8ED91E1ED0854FAAC8CA881E75ABAD9 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				48C023BD83671E44FC4278EDD493ACE5 /* FMDatabase.h */,
+				D0CF461714B0D344BC3AEE264FC2A1E9 /* FMDatabase.m */,
+				F43051FD982D10E75A65992120BBB6E8 /* FMDatabaseAdditions.h */,
+				65281F1F7C5E090DDFF84CA575AE8715 /* FMDatabaseAdditions.m */,
+				C5BF8E7943ED3A2944150C23FA72D6DE /* FMDatabasePool.h */,
+				24009A84356FAE083EC892FC6CADD5D0 /* FMDatabasePool.m */,
+				30FCDB70091767EA857842DAA609ACC6 /* FMDatabaseQueue.h */,
+				EEE140BBEB495FB8B37D1892C4B12F95 /* FMDatabaseQueue.m */,
+				BF68C10538A4D554A6B96D80103B1D51 /* FMDB.h */,
+				E6D23A38EB57DCA7FB995335021EDCBD /* FMResultSet.h */,
+				40C76DB0BE043378A32A35BD61042118 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		DCF7F9116A02A725A175F1724D0A80F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB51CEECABE4E0021AD8ADDC05A4E2 /* AVOSCloud */,
+				3FA3FA39B2555346514CF20DE5D25242 /* AVOSCloudCrashReporting */,
+				BB0C245D953407BE8C2218EB8909A0C0 /* AVOSCloudIM */,
+				775C4AF038DEBBB0FC32C599202C8A3D /* FMDB */,
+				2110500473FBADE23A2BE45631E803EB /* LeanCloudFeedback */,
+				C12F07A4E4355AB9CA9E5C311A71792A /* TZImagePickerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7DE0C72BCD88A80A03AC9637EB8425D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C398D734EAB1DBEA908163FB64699A4 /* libAVOSCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */,
+				B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */,
+				0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */,
+				D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */,
+				313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */,
+				F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2AFDB95413891BB6B0AB01F1E93751 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C1FEAB72DCE658F4F384CA97CB2916 /* LCHttpClient.h in Headers */,
+				425701ADF7AC6F70EB5205DE0E869C60 /* LCUserFeedbackAgent.h in Headers */,
+				C340F9D78712BDA8E8E0BC4F0400D280 /* LCUserFeedbackImageViewController.h in Headers */,
+				1D3D0021E87B25C14740727C8D0E5DEC /* LCUserFeedbackReply.h in Headers */,
+				26DD333EE9280AAD5B2E775723CE76B7 /* LCUserFeedbackReply_Internal.h in Headers */,
+				0E7B9D9F537232476E0926ED25E4C760 /* LCUserFeedbackReplyCell.h in Headers */,
+				452995F849D2F65EAA2E4D0D2BD25942 /* LCUserFeedbackThread.h in Headers */,
+				2E6FB1B4BDB1B6BA4ADF2538FBB8175A /* LCUserFeedbackThread_Internal.h in Headers */,
+				52C3A36710226C7E8612DFD5D44E8FDB /* LCUserFeedbackViewController.h in Headers */,
+				190A099D4860210503A94415BE2E4B6E /* LCUtils.h in Headers */,
+				309C22B90211980356848EA7D9649B07 /* LeanCloudFeedback.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C26886CD3CAC4C33A6173861B31558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED3E5A4E3524ABECEDF641A65DAC9A2 /* NSBundle+TZImagePicker.h in Headers */,
+				18446FF6F98BBEFB0E55B567A2213E71 /* TZAssetCell.h in Headers */,
+				70F370AF3CD8034599384E2A02F29D4D /* TZAssetModel.h in Headers */,
+				84050CE3F41C29394999F65A73ED9E3D /* TZImageManager.h in Headers */,
+				5F7F3957172AD7177D7D854A53170E49 /* TZImagePickerController.h in Headers */,
+				C6D06E9B7B8AA3B8C965A460F37026D4 /* TZPhotoPickerController.h in Headers */,
+				BAA51B49681F5770B42A0F8E3C41B8D5 /* TZPhotoPreviewCell.h in Headers */,
+				53DB434453D8595FD4DE1463C930E2AF /* TZPhotoPreviewController.h in Headers */,
+				E02BECE911801157C2A1D41262E2D3FC /* TZVideoPlayerController.h in Headers */,
+				EC9C1F55099915DC6DA96008FF106AE4 /* UIView+Layout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		498F21474E5D47CB5DD48F7E7461A062 /* TZImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC047120902E0A1AA0EAA9AECCC00AE8 /* Build configuration list for PBXNativeTarget "TZImagePickerController" */;
+			buildPhases = (
+				101598007AEF94A88ECD34FC4DB2C8AA /* Sources */,
+				14CE96770507EE8EEEBB54D875F18C99 /* Frameworks */,
+				F1C26886CD3CAC4C33A6173861B31558 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZImagePickerController;
+			productName = TZImagePickerController;
+			productReference = A7383B9ED3F6931E448B0B916A1DB073 /* libTZImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5CDA6EA192E52CDC50FA2BF0F88F1F2B /* LeanCloudFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D773223D8AAA4DCCFB8F9B161705C367 /* Build configuration list for PBXNativeTarget "LeanCloudFeedback" */;
+			buildPhases = (
+				ECF0B654670B454EEC56FC3BE7A69EF7 /* Sources */,
+				75741768C9D04FA62E4F06D4FCE1BDB4 /* Frameworks */,
+				8F2AFDB95413891BB6B0AB01F1E93751 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloudFeedback;
+			productName = LeanCloudFeedback;
+			productReference = BF6B5003F8EF943AFB21760A578F7746 /* libLeanCloudFeedback.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		87E9A429FFEAA9FF81022E8629620034 /* Pods-UStoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E3A834A372256BF1E4F01839EEF19E /* Build configuration list for PBXNativeTarget "Pods-UStoryTests" */;
+			buildPhases = (
+				1ADB27EB536C6BC0556AAE0C69FF6EB3 /* Sources */,
+				52E65780167B6B8556D7596E1AAE6966 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UStoryTests";
+			productName = "Pods-UStoryTests";
+			productReference = 9147E536CBD39A96BE6A20C60D57EBE3 /* libPods-UStoryTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				050B66E154969A68944942A22BD9B314 /* Sources */,
+				84AF63084FFE4472EFC6131BD113B13D /* Frameworks */,
+				8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 72A16E04E7B541E10B31D0B8A08BAF9E /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD957EF60F2FA983EAEBCAEAE0A751EB /* Pods-UStoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677CDA69CEA8EDDADDAF976E80EC1989 /* Build configuration list for PBXNativeTarget "Pods-UStoryUITests" */;
+			buildPhases = (
+				E258B1B77D2428F22BDC451D6BEE1CD8 /* Sources */,
+				B1DA275A5FA19E4586B6EA5D0C581C79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UStoryUITests";
+			productName = "Pods-UStoryUITests";
+			productReference = AE5C1232F5CC5AF8D443BAD43B56889A /* libPods-UStoryUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7B03C3D277F200AC226F515EB32DD69 /* Pods-UStory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C1258BEE06C9B7368E932E33F77B87 /* Build configuration list for PBXNativeTarget "Pods-UStory" */;
+			buildPhases = (
+				3FD263EBC70E2A76A03D02B97CFE9AF3 /* Sources */,
+				557B8056D9B24E9D889A25BF4296F636 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E3FFCA8ED5AB3CFAF9BB06312A152D /* PBXTargetDependency */,
+				329A1D53F1EEC5B8601085C898B7AB98 /* PBXTargetDependency */,
+				03FB595849386AC3F425DD87F0219087 /* PBXTargetDependency */,
+			);
+			name = "Pods-UStory";
+			productName = "Pods-UStory";
+			productReference = 1ECD68B9EE90C53DEE57884BB5AC0888 /* libPods-UStory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 40B0AE5261D143878ED703C873AF70E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */,
+				5CDA6EA192E52CDC50FA2BF0F88F1F2B /* LeanCloudFeedback */,
+				D7B03C3D277F200AC226F515EB32DD69 /* Pods-UStory */,
+				87E9A429FFEAA9FF81022E8629620034 /* Pods-UStoryTests */,
+				CD957EF60F2FA983EAEBCAEAE0A751EB /* Pods-UStoryUITests */,
+				498F21474E5D47CB5DD48F7E7461A062 /* TZImagePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050B66E154969A68944942A22BD9B314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */,
+				A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */,
+				0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */,
+				282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */,
+				3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */,
+				DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101598007AEF94A88ECD34FC4DB2C8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BE8D901F63BFBA3354860D18D0A4FC /* NSBundle+TZImagePicker.m in Sources */,
+				066455C18137B526A126B336153B29C5 /* TZAssetCell.m in Sources */,
+				25F2822F00F8215859E6A5476E1C1753 /* TZAssetModel.m in Sources */,
+				98C30BEC11A6721756A831391EBE0D01 /* TZImageManager.m in Sources */,
+				23A082FA746DF2F1940CD79531D4C43E /* TZImagePickerController-dummy.m in Sources */,
+				2C7DA1963321D317B4BE5B70CB9C9065 /* TZImagePickerController.m in Sources */,
+				6F0D6D1486F291D874D8654B08F9B2EB /* TZPhotoPickerController.m in Sources */,
+				745A45789BE22C3B68A5938E8D1A2781 /* TZPhotoPreviewCell.m in Sources */,
+				DC417A7E6A5680395AD14394E3707384 /* TZPhotoPreviewController.m in Sources */,
+				A939D97FF291C2EFA87ABAC582946B29 /* TZVideoPlayerController.m in Sources */,
+				380E0B4060FB15EC73A608146D16A439 /* UIView+Layout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADB27EB536C6BC0556AAE0C69FF6EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1256CF0ECDA2D5EC9506DC52D3818C12 /* Pods-UStoryTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD263EBC70E2A76A03D02B97CFE9AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CCC9C594E2C58590F278E7BFD47BE2 /* Pods-UStory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E258B1B77D2428F22BDC451D6BEE1CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA718A32B11F9B68D45C75867CD31637 /* Pods-UStoryUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF0B654670B454EEC56FC3BE7A69EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6463BF800073EB7404186E9157BFF22B /* LCHttpClient.m in Sources */,
+				4463AD48CDEFED9F5F670AE3D116298F /* LCUserFeedbackAgent.m in Sources */,
+				F87FEBA952DD47B949C777C6B2FFEFFB /* LCUserFeedbackImageViewController.m in Sources */,
+				38AA6E6B90E7B360EFA8F47EA45C899D /* LCUserFeedbackReply.m in Sources */,
+				9C8D8AE7943217AE0A28B545981BCB24 /* LCUserFeedbackReplyCell.m in Sources */,
+				42DAFD0D261B758BDD3DFB2BD16A0D01 /* LCUserFeedbackThread.m in Sources */,
+				A35EB8EE4E0DE9401BE369C8F31E14DF /* LCUserFeedbackViewController.m in Sources */,
+				FAF57A5D20ACA313586FFA0D2B7B136B /* LCUtils.m in Sources */,
+				40FB46C92726D9487A34933271D26C39 /* LeanCloudFeedback-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03FB595849386AC3F425DD87F0219087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZImagePickerController;
+			target = 498F21474E5D47CB5DD48F7E7461A062 /* TZImagePickerController */;
+			targetProxy = E6D08A940D551D755C0200B633B9A321 /* PBXContainerItemProxy */;
+		};
+		329A1D53F1EEC5B8601085C898B7AB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LeanCloudFeedback;
+			target = 5CDA6EA192E52CDC50FA2BF0F88F1F2B /* LeanCloudFeedback */;
+			targetProxy = CE23C3743F92FCE83A9400675E872EAE /* PBXContainerItemProxy */;
+		};
+		B5E3FFCA8ED5AB3CFAF9BB06312A152D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */;
+			targetProxy = 443D13A1575CD37461AD19C06EC174B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0927511FA4DF6DE3D9F94E5562D578E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3678BE7EA14F163196CEFC34375A0F49 /* Pods-UStory.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0BC8ACAA1BBCD83153EF57E2B89FB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D8091D76248F0007F2C0F8C71735F0 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1281275E0DDFD99A12AA384ED0ADD9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BEAF471644563797F9E3CEC7C90088 /* Pods-UStoryTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		132216E60961630B7F865FB06104924F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA34602F8AF4B44333B9CB9971AC31A0 /* Pods-UStory.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		21EB08025CEC262ADF769F2C9A737A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A4EAEE00E3BF6845225616212352AB /* Pods-UStoryUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D44DE4FBACE642DB52E08D716599231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69ED6F31C0EF6314085E892A07EBF82 /* Pods-UStoryUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		302A9183FAF056CD6E5361C7F325EC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7C3368637679CDDDCE690F029809A8 /* TZImagePickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53A46D55E0D50679BB86492A170245DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2469C1F3D80A0B49C18EBBE39CD16EB4 /* LeanCloudFeedback.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LeanCloudFeedback/LeanCloudFeedback-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82DBC2720948728CF19D2226274B1EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7C3368637679CDDDCE690F029809A8 /* TZImagePickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89747FC5DE2AE88ED7BE44A82E3D5719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B74E63C1D900C12B2567E4686E3BA4 /* Pods-UStoryTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7BA904A87CCDF175A63DBF60D6810A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D8091D76248F0007F2C0F8C71735F0 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D084B89183E5EABD1738D0E0002B8E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2469C1F3D80A0B49C18EBBE39CD16EB4 /* LeanCloudFeedback.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LeanCloudFeedback/LeanCloudFeedback-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC8ACAA1BBCD83153EF57E2B89FB594 /* Debug */,
+				C7BA904A87CCDF175A63DBF60D6810A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677CDA69CEA8EDDADDAF976E80EC1989 /* Build configuration list for PBXNativeTarget "Pods-UStoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EB08025CEC262ADF769F2C9A737A0D /* Debug */,
+				2D44DE4FBACE642DB52E08D716599231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E3A834A372256BF1E4F01839EEF19E /* Build configuration list for PBXNativeTarget "Pods-UStoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89747FC5DE2AE88ED7BE44A82E3D5719 /* Debug */,
+				1281275E0DDFD99A12AA384ED0ADD9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC047120902E0A1AA0EAA9AECCC00AE8 /* Build configuration list for PBXNativeTarget "TZImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302A9183FAF056CD6E5361C7F325EC3D /* Debug */,
+				82DBC2720948728CF19D2226274B1EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C1258BEE06C9B7368E932E33F77B87 /* Build configuration list for PBXNativeTarget "Pods-UStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0927511FA4DF6DE3D9F94E5562D578E4 /* Debug */,
+				132216E60961630B7F865FB06104924F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D773223D8AAA4DCCFB8F9B161705C367 /* Build configuration list for PBXNativeTarget "LeanCloudFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A46D55E0D50679BB86492A170245DB /* Debug */,
+				D084B89183E5EABD1738D0E0002B8E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
